@@ -66,6 +66,9 @@ button{
     color:#002103;
 }
 #reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 48%;
     right: 34%;
@@ -78,6 +81,8 @@ button{
     z-index: 1;
 }
 .reset-img {
+    width: 80%;
+    height: 80%;
 }
 #counter{
     position: absolute;
