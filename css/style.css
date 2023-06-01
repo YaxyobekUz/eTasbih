@@ -61,7 +61,7 @@ button{
     background: #00ff00;
     z-index: 1;
     text-align: right;
-    font-size:70px;
+    font-size:80px;
     font-family: digital;
     color:#002103;
 }
@@ -108,6 +108,4 @@ button{
     border-radius: 100%;
     background: #b1b1b1;
     box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
-}
-.counter-child {
 }
