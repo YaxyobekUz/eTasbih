@@ -9,14 +9,10 @@ elCounter.addEventListener('click', function(){
 })
 // minus
 elMinus.addEventListener('click', function(){
-    // elSelect.value = 'Zikrlar'
-    // elZikr.textContent = "ltimos aytmoqchi bo'lgan zikrni tanlang :("
     elScreen.textContent = +elScreen.textContent-1
 })
 
 // reset 
 elReset.addEventListener('click', function(){
-    // elSelect.value = 'Zikrlar'
-    // elZikr.textContent = "ltimos aytmoqchi bo'lgan zikrni tanlang :("
     elScreen.textContent = '0'
 })
