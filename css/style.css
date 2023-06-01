@@ -65,6 +65,21 @@ button{
     font-family: digital;
     color:#002103;
 }
+#minus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 48%;
+    left: 34%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background: #b1b1b1;
+    box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
+    z-index: 1;
+}
 #reset{
     display: flex;
     align-items: center;
@@ -80,7 +95,7 @@ button{
     box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
     z-index: 1;
 }
-.reset-img {
+.small-img {
     width: 80%;
     height: 80%;
 }
