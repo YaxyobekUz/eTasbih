@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: digital;
+    src: url(../digital.ttf);
+}
+html{
+    height: 100%;
+}
+button{
+    cursor: pointer;
+    transition: all 0.1s ease;
+}button:active{
+    animation:btn-animation 0.1s 1;
+}
+
+@keyframes btn-animation {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.96);
+    }
+}
+.body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #002103;
+}
+.parent {
+    display: flex;
+    max-width: 600px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #5ed07f;
+    border-radius: 20px;
+}
+.etasbih-img{
+    position: absolute;
+    width: 90%;
+    z-index: 0;
+}
+#screen{
+    position: absolute;
+    top: 32%;
+    width: 40%;
+    height: 85px;
+    border-radius: 2px;
+    padding: 6px;
+    background: #00ff00;
+    z-index: 1;
+    text-align: right;
+    font-size:70px;
+    font-family: digital;
+    color:#002103;
+}
+#reset{
+    position: absolute;
+    bottom: 48%;
+    right: 34%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    background: #b1b1b1;
+    box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
+    z-index: 1;
+}
+.reset-img {
+}
+#counter{
+    position: absolute;
+    bottom: 25%;
+    width:160px ;
+    height: 160px;
+    border: none;
+    border-radius: 100%;
+    background: #b1b1b1;
+    box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
+}
+.counter-child {
+}
