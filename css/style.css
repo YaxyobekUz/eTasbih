@@ -109,3 +109,61 @@ button{
     background: #b1b1b1;
     box-shadow: 0 1px 3px 0px #1e1e1e,inset 0 2px 8px 0px #ffffff;
 }
+@media screen and (max-width:800px) {
+    .parent{
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .etasbih-img{
+        width: 65%;
+    }
+    #screen{
+        width: 30%;
+        height: 50px;
+        font-size: 40px;
+        top: 30%;
+    }
+    #minus,#reset{
+        width: 30px;
+        height: 30px;
+    }
+    #counter{
+        width: 100px;
+        height: 100px;
+        bottom: 28%;
+    }
+}
+@media screen and (max-width:500px) {
+    .parent{
+        max-width: 400px;
+        max-height: 500px;
+    }
+    .etasbih-img{
+        width: 90%;
+    }
+    #screen{
+        width: 40%;
+    }
+    #counter{
+        width: 100px;
+        height: 100px;
+        bottom: 23%;
+    }
+}
+@media screen and (max-width:370px) {
+    .parent{
+        max-width: 400px;
+        max-height: 500px;
+    }
+    .etasbih-img{
+        width: 90%;
+    }
+    #screen{
+        width: 40%;
+    }
+    #counter{
+        width: 100px;
+        height: 100px;
+        bottom: 23%;
+    }
+}
