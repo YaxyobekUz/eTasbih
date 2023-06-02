@@ -7,10 +7,6 @@ const elCounter = document.querySelector('#counter');
 elCounter.addEventListener('click', function(){
     elScreen.textContent = +elScreen.textContent+1
 })
-// minus
-elMinus.addEventListener('click', function(){
-    elScreen.textContent = +elScreen.textContent-1
-})
 
 // reset 
 elReset.addEventListener('click', function(){
